@@ -5,9 +5,18 @@ Somethings about this project
 a) booking
 b) shows
 c) user
-2. Make the database according to you.
+2. Database Name  - bookmyshow
 
 For this project we used Mysql 
-All the structure sql statements will be added
+
+
+- Libraries Used 
+mysql.connector
+os
+pandas as pd
+platform
+
+|||| BEFORE USING THIS PROJECT PLEASE PUT YOUR USERNAME AND PASSWORD ACCORDING TO YOU ||||
+
 
 Enjoy!
