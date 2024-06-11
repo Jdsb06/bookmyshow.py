@@ -5,7 +5,7 @@ import platform
 
 conn = pymysql.connect(host="localhost",
                                user="root",
-                               password="rb",
+                               password="ADD YOUR PASSWORD",
                                database="bookmyshow")
 cursor = conn.cursor()
 
@@ -446,7 +446,7 @@ def cancel_booking(cursor, user_id):
 def modify_view_account():
     conn = pymysql.connect(host="localhost",
                                    user="root",
-                                   password="rb",
+                                   password="ADD YOUR PASSWORD",
                                    database="bookmyshow")
     global current_user_id
     global ch, opp
