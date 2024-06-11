@@ -1,0 +1,13 @@
+Somethings about this project
+
+-Database
+1. There are three tab tables named
+a) booking
+b) shows
+c) user
+2. Make the database according to you.
+
+For this project we used Mysql 
+All the structure sql statements will be added
+
+Enjoy!
