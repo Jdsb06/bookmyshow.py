@@ -1,3 +1,17 @@
+"""
+====================================================
+IMPORTANT NOTES:
+1. This script is automatically updated by `setup.py` 
+   with the MySQL root password during the setup process.
+2. Ensure you run `setup.py` before running `main.py`.
+3. This project assumes the `bookmyshow` database has
+   been set up with the correct tables and sample data.
+4. If you make changes to the database schema, update 
+   the `db_setup.sql` file accordingly and re-run `setup.py`.
+====================================================
+"""
+
+
 import pymysql
 import os
 import pandas as pd
