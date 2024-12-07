@@ -39,7 +39,7 @@ def update_main_password(mysql_password):
 
 def run_project():
     print("Running the project...")
-    subprocess.run(["python", "main.py"])
+    subprocess.run(["python3", "main.py"])
 
 if __name__ == "__main__":
     install_dependencies()
