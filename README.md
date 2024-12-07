@@ -39,7 +39,7 @@ Sample data for the `shows` table is automatically added when you run the setup 
 1. Clone this repository:  
    ```bash
    git clone https://github.com/Jdsb06/bookmyshow.py.git
-   cd bookmyshow
+   cd bookmyshow.py
 2. Run the setup script:
    ```bash
    python3 setup.py
