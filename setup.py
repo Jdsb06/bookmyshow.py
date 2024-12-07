@@ -1,3 +1,22 @@
+"""
+====================================================
+IMPORTANT NOTES:
+1. This project is designed for Unix-based systems (Linux/macOS).
+2. Use Python 3 to run the script. Ensure you have `python3` installed.
+3. MySQL must be installed and running locally on your system.
+4. During setup, you will be prompted to enter your MySQL root password.
+5. The `setup.py` script will:
+   - Install required Python libraries.
+   - Create the `bookmyshow` database and tables.
+   - Populate tables with sample data.
+   - Update `main.py` with your MySQL root password.
+   - Run the application.
+6. If you encounter issues with the `python` command, use `python3` instead or create an alias:
+   alias python=python3
+====================================================
+"""
+
+
 import subprocess
 import pymysql
 
