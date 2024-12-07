@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS bookmyshow;
 USE bookmyshow;
 
-create table bookmyshow.user
+create table if not exists bookmyshow.user
 (
     user_id   int          not null
         primary key,
@@ -11,7 +11,7 @@ create table bookmyshow.user
     city      varchar(20)  not null
 );
 
-create table bookmyshow.shows
+create table if not exists bookmyshow.shows
 (
     show_id         int            not null
         primary key,
