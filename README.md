@@ -42,4 +42,4 @@ Sample data for the `shows` table is automatically added when you run the setup 
    cd bookmyshow
 2. Run the setup script:
    ```bash
-   python setup.py
+   python3 setup.py
