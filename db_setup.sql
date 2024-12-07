@@ -1,3 +1,13 @@
+-- ====================================================
+-- IMPORTANT NOTES:
+-- 1. This SQL script is executed by `setup.py` to:
+--    - Create the `bookmyshow` database and tables.
+--    - Populate the tables with sample data.
+-- 2. Ensure this file is in the same directory as `setup.py`.
+-- 3. If you modify the schema, re-run `setup.py` to apply changes.
+-- ====================================================
+
+
 CREATE DATABASE IF NOT EXISTS bookmyshow;
 USE bookmyshow;
 
