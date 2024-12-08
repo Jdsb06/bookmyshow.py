@@ -577,7 +577,7 @@ def run_again():
     if choice == 'y':
         if platform.system() in ["Linux", "Darwin"]:  # Darwin is macOS
             print(os.system('clear'))
-         elif platform.system() == "Windows":
+        elif platform.system() == "Windows":
             print(os.system('cls'))
         menu_set()
 
