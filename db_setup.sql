@@ -7,7 +7,7 @@
 -- 3. If you modify the schema, re-run `setup.py` to apply changes.
 -- ====================================================
 
-
+drop database bookmyshow;
 CREATE DATABASE IF NOT EXISTS bookmyshow;
 USE bookmyshow;
 
