@@ -575,7 +575,9 @@ def view_trending_shows():
 def run_again():
     choice = input("Do you want to continue:y/n : ").strip().lower()
     if choice == 'y':
-        if platform.system() == "Windows":
+        if platform.system() in ["Linux", "Darwin"]:  # Darwin is macOS
+            print(os.system('clear'))
+         elif platform.system() == "Windows":
             print(os.system('cls'))
         menu_set()
 
