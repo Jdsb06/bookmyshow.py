@@ -4,8 +4,13 @@ A simplified clone of **BookMyShow**, crafted in **Python** with **MySQL**, to m
 ---
 
 ## 👥 **Authors**
+
 - **Jashandeep Singh**  
-- **Gravkrishna Gupta**
+  [LinkedIn](https://www.linkedin.com/in/jdsb06) | [GitHub](https://github.com/Jdsb06)
+
+- **Gravkrishna Gupta**  
+  [LinkedIn](https://www.linkedin.com/in/garvkrishna-gupta-46639a325/) | [GitHub](https://github.com/Garvv06)
+
 
 This project was developed as part of a **Class 12 Project** to demonstrate proficiency in Python and SQL.
 
